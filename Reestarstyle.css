@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 10px;
+}
+
+.body{
+    font-family: "Platypi", serif;
+   justify-content: center;
+    
+}
+.sec-1__title{
+   background-color: black;
+    color: white;
+margin-top: 10px;
+    
+}
+.sec-1__desc li{
+    display: inline;
+    background-color: black;
+    color: white;
+ 
+   
+   
+}
+
+.sec-1__desc li:not(:last-child)::after{
+    content: '|';
+    
+    margin-left: 10px;
+}
+
+.sec-1{
+    background-color: black;
+    text-align: center;
+    padding-top : 5px;
+    padding-bottom: 5px;
+
+}
+
+.sec-2__desc,.sec-3__desc,.sec-4__desc,.sec-5__desc{
+    
+    width: 200px;
+    vertical-align: top;
+    
+}
+.sec-2,.sec-3,.sec-4,.sec-5{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.sec-2__title,.sec-3__title,.sec-4__title,.sec-5__title{
+
+width: 200px;
+height: 300px;
+
+}
+.sec-6,.sec-6__title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+  
+}
+
+.sec-2__button,.sec-3__button,.sec-4__button,.sec-5__button{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.sec-6 table{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sendbutton{
+    background-color: yellow;
+    width: 400px;
+    
+}
+.container{
+  
+    text-align: center;
+}
